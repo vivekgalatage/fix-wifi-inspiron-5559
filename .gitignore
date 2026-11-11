@@ -1,0 +1,8 @@
+# Vendor drivers: keep locally, never commit
+Driver/*
+!Driver/README.md
+
+# Diagnostic reports (contain network names, MAC address, user name)
+WiFi-Report-*.txt
+
+.DS_Store
